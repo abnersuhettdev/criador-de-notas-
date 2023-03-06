@@ -9,7 +9,7 @@
 </p>
 
 <p align="center">
-  <img alt="License" height='400px' src="assets/preview.jpg">
+  <img alt="License" height='400px' src="assets/readme.gif">
 </p>
 
 <br>
