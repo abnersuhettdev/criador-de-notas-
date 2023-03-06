@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>do-it!</title>
+    <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
+    <link rel="stylesheet" href="/css/index.css">
+    <link
+      rel="shortcut icon"
+      href="assets/img/favicon.ico"
+      type="image/x-icon"
+    />
+</head>
+<body>
+    <header id="navbar">
+
+        <div id="navimg">
+        <a href="/"><img src="assets/img/do-it-logo.png" alt="do-it-logo" /></a>
+        <h2>Just Do It!</h2>
+        </div>
+
+        <nav>
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#sobre">Sobre</a></li>
+            <li><a href="#contatos">Contatos</a></li>
+        </ul>
+        </nav>
+    </header>
+
+    <main>
+        <div id="container">
+        <div id="bg-img"></div>
+        <div id="welcome" class="content">
+            <div id="welcomeTitle">
+            <lottie-player src="https://assets3.lottiefiles.com/packages/lf20_llbjwp92qL.json"  background="transparent"  speed="1"  style="height: 70px;"loop autoplay></lottie-player>
+            <p>Organize Suas Ideias, Planeje seu futuro, Crie novas Metas!</p>
+            </div>
+
+            <div id="welcomeImg">
+
+            <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
+            <lottie-player src="https://assets8.lottiefiles.com/packages/lf20_ZcIjtY.json"  background="transparent"  speed="1"  style="height: 300px;"  loop  autoplay></lottie-player>
+            </div>
+
+            <div id="changeForm" onclick="changeForm()">
+            <p>Acesse sua conta</p>
+    
+            </div>
+        </div>
+
+        <!-- Formulário de Cadastro -->
+        <div id="signup" class="content">
+            <div class="form">
+            <h2>Cadastre-se</h2>
+            <form id="signupForm">
+
+                <div class="inputGroup">
+                <input
+                    id="newUsername"
+                    type="text"
+                    name="newUsername"
+                    autocomplete="off"
+                    required
+                />
+                <label id="newUserlabel" for="name">Usuário</label>
+                </div>
+
+                <div class="inputGroup">
+                <input
+                    id="email"
+                    name="email"
+                    type="email"
+                    autocomplete="off"
+                    required
+                />
+                <label id="emailLabel" for="email">E-mail</label>
+                </div>
+
+                <div class="inputGroup">
+                <input
+                    id="newPassword"
+                    name="password"
+                    type="password"
+                    autocomplete="off"
+                    required
+                />
+                <label id="passwordLabel" for="password" >Senha</label>
+                </div>
+
+                <div class="inputGroup">
+                <input
+                    id="password2"
+                    name="password2"
+                    type="password"
+                    autocomplete="off"
+                    required
+                />
+                <label id="password2Label" for="confirmPassword">Confirme sua Senha</label>
+                </div>
+
+                <input type="checkbox" name="useTerms" id="useTerms" required/> Li e
+                aceito os termos de Uso
+                
+                <br />
+
+                <button type="submit" class="btn">Cadastrar</button>
+
+            </form>
+            </div>
+        </div>
+
+        <!-- CARDS SOBRE -->
+        </div>
+        <hr />
+        <section>
+        <div id="cards">
+            <div class="card">Crie sua conta e comece a se planejar!</div>
+            <div class="card"> <img height="100%" src="assets/img/Brazuca - Planning (1).png" alt=""></div>
+            <div id="sobre" class="card">Uma forma nova, transparente e eficiente de organizar todas as tarefas!</div>
+        </div>
+        </section>
+    </main>
+
+    <footer>
+        
+        
+        <p>Criado por Abner Suhett ® 2023</p>
+        <div id="contatos">
+        <a target="_blank" href="https://github.com/abnersuhettdev"><img height="40px" src="https://img.icons8.com/plasticine/100/null/github-squared.png"/></a>
+        <a target="_blank" href="https://www.linkedin.com/in/abner-suhett-8bbb45175/"><img height="40px" src="https://img.icons8.com/plasticine/100/null/linkedin.png"/></a>
+        </div>
+    </footer>
+
+    <script src="js/signup.js"></script>
+
+    
+</body>
+</html>

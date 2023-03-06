@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <script src="https://unpkg.com/phosphor-icons"></script>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Do it! - Dashboard</title>
+    <link rel="stylesheet" href="css/dashboard.css" />
+    <link
+      rel="shortcut icon"
+      href="assets/img/favicon.ico"
+      type="image/x-icon"
+    />
+  </head>
+  <body>
+    <div id="title">
+          <h1>Olá ${user}:</h1>
+          <button id="signOut"><i class="ph-sign-out"></i></button>
+    </div>
+    <div id="container">
+      <div id="addItem">
+        <h2>Adicione uma nova tarefa:</h2>
+        <form id="formNewItem">
+          <div class="inputGroup">
+            <input id="newItemTitle" type="text" placeholder="Título" />
+            <input
+              id="newItemDescription"
+              type="text"
+              placeholder="Detalhamento"
+            />
+            <button id="add"><i class="ph-plus"></i></button>
+          </div>
+        </form>
+        <p id="errorMessage"></p>
+      </div>
+      <hr />
+      <div>
+        <h2>Tarefas:</h2>
+        <div id="notes"></div>
+      </div>
+    </div>
+
+    <script src="js/dashboard.js"></script>
+  </body>
+</html>
